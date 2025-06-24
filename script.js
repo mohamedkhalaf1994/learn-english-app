@@ -1,9 +1,3 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
-    .then(() => console.log('✅ Service Worker Registered'))
-    .catch(err => console.log('❌ Service Worker Failed:', err));
-}
-
 const inputVild = document.getElementById("arabic-input");
 const translateBtn = document.querySelector("button");
 const translationContainer = document.getElementById("translation");
